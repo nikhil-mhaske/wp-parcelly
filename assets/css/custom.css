@@ -30,6 +30,21 @@ h1 {
     text-align: center;
 }
 
+.site-title{
+    color: white;
+    margin-bottom: 0;
+}
+
+img.custom-logo {
+    padding: 0;
+    width: 125px;
+    height: auto;
+}
+
+a.custom-logo-link {
+    padding: 0;
+}
+
 p {
     font-size: 1.9rem;
     color: #020202;
@@ -73,10 +88,6 @@ header {
     justify-content: space-between;
     height: 80px;
     padding: 0 5rem;
-}
-
-.logo img {
-    width: 25rem;
 }
 
 ul {

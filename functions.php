@@ -1,5 +1,9 @@
 <?php
 
+add_theme_support( 'custom-logo');
+add_theme_support( 'title-tag' );
+
+
 // Load in our CSS
 function parcelly_enqueue_styles() {
 
@@ -7,3 +11,4 @@ function parcelly_enqueue_styles() {
 
 }
 add_action( 'wp_enqueue_scripts', 'parcelly_enqueue_styles' );
+
