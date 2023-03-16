@@ -11,13 +11,10 @@ wp_footer();
             </div>
             <div class="menu">
                 <p id="title">Quick Links</p>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="tool.html">Calculate Shipping</a></li>
-                    <li><a href="#howto">How To</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#partners">Our Partners</a></li>
-                </ul>
+                <?php wp_nav_menu(array(
+                'theme_location' => 'footer_menu',
+                'menu_id' => 'footer-menu',
+            )); ?>
             </div>
             <div class="connect">
                 <p id="title">Connect with Us:</p>
