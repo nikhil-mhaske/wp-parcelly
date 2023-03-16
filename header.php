@@ -29,6 +29,6 @@ wp_head();
                 'menu_id' => 'primary-menu',
             )); ?>
         </div>
-        <div class="menu-icon"><i class="fa fa-bars"></i></div>
-        <div class="cancel-icon"><i class="fa fa-close"></i></div>
+        <div class="menu-icon"><span class="dashicons dashicons-editor-aligncenter"></span></div>
+        <div class="cancel-icon"><span class="dashicons dashicons-editor-aligncenter"></span></div>
     </header>
