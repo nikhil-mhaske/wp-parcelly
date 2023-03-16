@@ -24,14 +24,10 @@ wp_head();
             <?php endif; ?>
         </div>
         <div class="nav-items">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="tool.html">Calculate Shipping</a></li>
-                <li><a href="#howto">How To</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#partners">Our Partners</a></li>
-                <li><a href="#footer">Contact Us</a></li>
-            </ul>
+            <?php wp_nav_menu(array(
+                'theme_location' => 'primary_menu',
+                'menu_id' => 'primary-menu',
+            )); ?>
         </div>
         <div class="menu-icon"><i class="fa fa-bars"></i></div>
         <div class="cancel-icon"><i class="fa fa-close"></i></div>

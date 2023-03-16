@@ -12,3 +12,13 @@ function parcelly_enqueue_styles() {
 }
 add_action( 'wp_enqueue_scripts', 'parcelly_enqueue_styles' );
 
+//Nav Menu
+if ( ! function_exists( 'plugin_register_nav_menu' ) ) {
+
+	function plugin_register_nav_menu(){
+		register_nav_menus( array(
+	    	'primary_menu' => __( 'Primary Menu', 'parcelly' ),
+		) );
+	}
+	add_action( 'after_setup_theme', 'plugin_register_nav_menu');
+}
