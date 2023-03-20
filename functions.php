@@ -2,7 +2,7 @@
 
 add_theme_support( 'custom-logo');
 add_theme_support( 'title-tag' );
-
+add_theme_support( 'site-icon', array( 'size' => '512x512' ) );
 
 // Load in our CSS
 function parcelly_enqueue_styles() {
