@@ -30,5 +30,5 @@ wp_head();
             )); ?>
         </div>
         <div class="menu-icon"><span class="dashicons dashicons-editor-aligncenter"></span></div>
-        <div class="cancel-icon"><span class="dashicons dashicons-editor-aligncenter"></span></div>
+        <div class="cancel-icon"><span class="dashicons dashicons-dismiss"></span></div>
     </header>
