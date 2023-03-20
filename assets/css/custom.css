@@ -132,7 +132,7 @@ a:active {
     .nav-items {
         position: fixed;
         z-index: 99;
-        top: 80px;
+        top: 100px;
         width: 100%;
         left: -100%;
         height: 100vh;
