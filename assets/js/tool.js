@@ -6,6 +6,7 @@ let shipTo = document.getElementById("ship-to");
 
 let charges;
 
+
 //validations
 weight.addEventListener("keyup", (res) => {
     const value = res.currentTarget.value;
@@ -59,7 +60,7 @@ function shippingRates(distance, weight) {
 
     //for Speed Post
     let indianPostCharges = indianPost(distance, weight);
-
+    
     document.getElementById("speedPost").innerHTML = `
     <img src="/images/indianPost.jpg" alt="Indian post Logo"><br>
     Shipping Cost<br> <span>${indianPostCharges} &#8377; <span>`;
