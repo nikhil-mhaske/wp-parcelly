@@ -468,3 +468,11 @@ img {
     height: 80%;
     padding-top: 20px;
 }
+
+.error-display {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
