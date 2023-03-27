@@ -457,3 +457,14 @@ img {
     }
 
 }
+
+
+/*for Index.php*/
+.post-display {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    height: 80%;
+    padding-top: 20px;
+}
