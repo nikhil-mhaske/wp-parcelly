@@ -1,11 +1,10 @@
 <?php
-get_header();
-?>
+get_header(); ?>
 
 
 <div class="post-display">
     <h1>Check out our latest Posts</h1>
-    <?php 
+    <?php
     $args = array(
         'post_type' => 'post',
         'posts_per_page' => -1, // Display all posts
@@ -20,12 +19,14 @@ get_header();
                 <?php the_content(); ?>
             </div>
 
-        <?php endwhile; else : ?>
+        <?php endwhile;
+    else : ?>
 
         <p><?php _e('Sorry, no posts found.'); ?></p>
 
     <?php endif; ?>
-  <?php wp_reset_postdata(); ?>
+    <?php wp_reset_postdata(); ?>
 </div>
 
-<?php get_footer(); ?>
+<?php
+get_footer();

@@ -7,7 +7,7 @@
             <div class="hero-content">
                 <h1>GET YOUR BEST & AFFORDABLE<br> SHIIPING PARTNER</h1>
                 <h3>Compare shipping charges on multiple trusted Platforms</h3>
-                <a href="tool.html"><button>Calculate Shipping</button></a>
+                <a href="tool"><button>Calculate Shipping</button></a>
             </div>
             <div class="hero-image">
                 <img src="<?php echo (get_template_directory_uri(). '/assets/images/hero-image.png') ?>" alt="courier service image">
